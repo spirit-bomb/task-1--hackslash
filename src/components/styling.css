@@ -1,0 +1,80 @@
+
+.content{
+    
+    box-sizing:content-box;
+    margin:5px;
+    
+    object-fit: cover;
+    position:relative;
+}
+.img{
+    position:fixed;
+    width:100%;
+    height:100%;
+    left:0%;
+    opacity: 0.8;
+}
+.lowerbox{
+
+    position:absolute;
+    top:0px;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    left:25%;
+}
+
+.bar{
+    font-size: larger;
+    width:500px;
+    height:35px;
+    margin-top:50px;
+    border:2px solid;
+}
+.mcontent{
+
+    margin:auto;
+    display:flex;
+    justify-content:center;
+}
+.body{
+
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    margin-top:50px;
+    margin-left:60px;
+    margin-right:60px;
+    column-gap:30px;
+    row-gap:30px;
+    width:800px;
+}
+.cards{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    border:4px solid black;
+    padding:4px;
+    border-radius: 15px;
+}
+
+.head{
+
+    margin-top:2px;
+    color:rgb(113, 253, 48);
+}
+.about{
+    font-family:cursive;
+    color:rgb(255, 255, 255);
+    font-size: large;
+}
+.delbtn{
+    background-color: rgb(245, 238, 238);
+    border-radius:12px;
+    font-size:large;
+    width:30px;
+    margin:auto;
+}
+.delbtn:hover{
+    background-color: rgb(234, 19, 19);
+    cursor: pointer;
+}
